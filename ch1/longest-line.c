@@ -64,4 +64,10 @@ void copy(char to[], char from[])
     // incrementer doesn't get executed when we hit the nul byte
     ++i;
   }
+
+  // can also be written like this
+  // while (line[i] != '\0') {
+  //   longest[i] = line[i];
+  //   ++i;
+  // }
 }
