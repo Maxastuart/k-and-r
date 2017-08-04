@@ -29,7 +29,7 @@ int trim(char s[])
    for (n = strlen(s)-1; n >= 0; n--) {
 
       if (s[n] != ' ' && s[n] != '\t' && s[n] != '\n') {
-         break;
+         break; // breaks when it finds a non blank character
       }
 
       s[n] = '\0';
