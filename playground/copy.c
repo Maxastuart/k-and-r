@@ -15,7 +15,7 @@ int main(void)
 }
 
 /*
-   Text I/O is dealth with as STREAMS of characters.
+   Text I/O is dealt with as STREAMS of characters.
    A TEXT STREAM is a sequence of characters divided into LINES; each
    line consists of zero or more characters followed by a \n.
 */
